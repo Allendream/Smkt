@@ -1,0 +1,32 @@
+#3.3用例建模
+问题分析的结果是获得用例模型，当然还可能有其他种类的产品。用例模型是系统既定功能及系统环境的模型，它可以作为客户和开发人员之间的契约。用例是贯穿整个系统开发的一条主线。同一个用例模型即为需求工作流程的结果，可当作分析设计工作流程以及测试工作流程的输入使用。使用例更易于理解。 将在许多用例内说明的公有行为分离出来。 使用例模型更易于维护。
+##3.3.1确定参与者(actor)
+用例模型描述了系统能为每种做些什么。每种类型的的用户表示为一个或几个参与者。每个与该系统进行交互的外部系统也表示为一个或多个参与者。因此，参与者表示系统外部与系统进行协作的参与者。只要确定系统的所有参与者，就确定了系统的外部环境表3.1对其进行了描述。
+
+![参与者](http://a4.qpic.cn/psb?/V13e8HVx2qzjyJ/nOzMTp5VwUGoK3vtz31BqoglQnkIairNiMAbtO.u.Oc!/b/dHMBAAAAAAAA&ek=1&kp=1&pt=0&bo=5wTTAQAAAAADBxM!&sce=0-12-12&rf=viewer_4)
+##3.3.2确定并定义用例（use case）
+参与者使用系统的每一种方法都可以表示一个用例。用例是系统能够向其参与者提供增值的功能的“块”。更严格的说，用例确定了一个与系统参与者进行交互，并可由系统参与者进行交互、并可由系统执行动作的序列。一个用例是一种规格说明。<br>
+在本系统中，涉及到的用例在下面的表3.2系统用例清单中列出。
+
+![系统用例清单]()
+<br>![系统用例清单](http://a4.qpic.cn/psb?/V13e8HVx2qzjyJ/7.5NztXtrMrJ6vhAj86XVCVynH1Tc3rtL976dcRw3W4!/m/dG8AAAAAAAAA&bo=rwGTAAAAAAADBx8!&rf=photolist)
+<br>![系统用例清单](http://a3.qpic.cn/psb?/V13e8HVx2qzjyJ/SufYSiED.Ah1qDPrrmHW*Tz34Bics47NBhRgxkV5qVQ!/m/dIoBAAAAAAAA&bo=tQGOAgAAAAADBxo!&rf=photolist)
+<br>![系统用例清单](http://a4.qpic.cn/psb?/V13e8HVx2qzjyJ/.8cZLnEMOh3ufNaXUbpP12qmufAB2GcdFm3TTopuHjM!/m/dHMBAAAAAAAA&bo=sAEnAQAAAAADB7U!&rf=photolist)
+<br>![系统用例清单](http://a4.qpic.cn/psb?/V13e8HVx2qzjyJ/lOJ5tPih.ZTDkzsmFMOy3wioZkw.RnKV.bRZnd*Rh6g!/m/dHMBAAAAAAAA&bo=sAE3AgAAAAADB6Y!&rf=photolist)
+<br>![系统用例清单](http://a1.qpic.cn/psb?/V13e8HVx2qzjyJ/z6i8mloCQY9E9FO6RGijUNnef3V9xYP0mi9bqFqPyQg!/m/dHQBAAAAAAAA&bo=sAF5AQAAAAADB.s!&rf=photolist)
+<br>![系统用例清单](http://a2.qpic.cn/psb?/V13e8HVx2qzjyJ/HB0vyciprBnuo*QwxxclYxrReg.KeNgd7q4x5FRJ3i8!/m/dHUBAAAAAAAA&bo=rAFUAQAAAAADB9o!&rf=photolist)
+##3.3.3用例描述
+##3.3.4用例模型图
+通过上面的过程，已经找到了参与者和用例，但只是孤立的描述和理解每个用例和参与者是不够的，还需要从整体上来把握，我们需要哦说明的是用例和参与者如何彼此相关以及如何一起组成用例模型。
+<br>用例模型可以有用例视图来表示。按照抽象层次，抽象视图可以划分为系统层（最高层）、子系统层和对象类层（最低层），系统层用例视图描述系统提供的全部服务，子系统层的用例视图描述了子系统提供的服务，他的交互者可以是其他的子系统或高一层的活动者，对象层的用例视图描述了对象类提供的功能或操作，他的交互者可以是其他对象类或高一层的活动者。
+ <br>根据调研结果，结合UML的相关知识，使用Microsoft Visio设计工具设计了本管理系统的用例视图。图3-1显示的是系统层用例，指出网站主要的用例。
+
+
+<br>![系统用例视图](http://a1.qpic.cn/psb?/V13e8HVx2qzjyJ/S6eaVcMidiUGAZiKb.2anKhhybUwJSZ.ViD.zwIfwjk!/m/dHQBAAAAAAAA&bo=nwKNAQAAAAADBzM!&rf=photolist)
+<br>每个子用例又可以扩展，通过子系统用例视图来买书每个子用例。如图3-2详细描述了超市管理系统用例及其子用例之间的关系
+<br>![系统用例视图](http://a1.qpic.cn/psb?/V13e8HVx2qzjyJ/AN9dccA3fFuBEucsgFLz71J.MPKZhNfLzaooouQ6rTM!/m/dHQBAAAAAAAA&bo=4QJdAgAAAAADB54!&rf=photolist)
+
+
+
+
+<br>![系统用例清单]()
